@@ -53,6 +53,11 @@ img {
     margin-right: auto;
 }
 
+img:hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
 /*Media Query*/
 @media screen and (max-width: 576px) {
     img{
