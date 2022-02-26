@@ -97,6 +97,14 @@ footer{
     color: rgb(0, 253, 0);
 }
 
+@media screen and (max-width: 576px) {
+    .navbar a {
+        width: 25%;
+        font-size: 12px;
+    }
+    
+}
+
 /*end of navbar*/
 
 /*Video*/
@@ -148,6 +156,12 @@ footer{
     padding-top: 3%;
     height: 400px;
     background-color: black;
+}
+
+@media screen and (max-width: 576px) {
+    .column_1 {
+        overflow: auto;
+    }
 }
 
 .column_tall {
