@@ -5,7 +5,7 @@ body {
 }
 
 /*Heading 1 Elements*/
-h1{
+h2{
     font-family: OCR A Std, monospace;
     text-align: center;
     margin-top: 3%;
@@ -87,7 +87,7 @@ footer{
     padding: 14px 16px;
     text-decoration: none;
     font-family: OCR A Std, monospace;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     position: relative;
 }
