@@ -1,4 +1,6 @@
 html, body {
+    display: flex;
+    flex: 1;
     margin: 0 0;
     padding: 0;
     max-height: 910px;
@@ -14,26 +16,17 @@ html {
     position: fixed;
     z-index: -1;
 }
-
-
-.box{
-    position: relative;
-    width: 150px;
-    height: 75px;
-    z-index: 1;
-    top: 800px;
-    left: 850px;
+@media screen and (max-width: 576px) {
+    #video1 {
+        display: none;
+    }
 }
 
 #click{
-    width: 150px;
-    height: 75px;
-    display: hidden;
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: blueviolet;
 }
- #click:hover{
-     cursor: pointer;
- }
-
