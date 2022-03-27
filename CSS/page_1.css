@@ -18,7 +18,7 @@ html {
 }
 @media screen and (max-width: 576px) {
     #video1 {
-        display: none;
+        width: 100%;
     }
 }
 
