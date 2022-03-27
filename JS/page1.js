@@ -1,4 +1,4 @@
 
 document.getElementById("click").onclick = function () {
-    location.href = "./Home.html";
+    location.href = "./Home_draft.html";
 };
