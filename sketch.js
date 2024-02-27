@@ -16,11 +16,12 @@ function setup(){
     video.autoplay("true")
     video.volume(0);
     asciiDiv = createDiv();
-    rickRollSound.play()
+    
     
 }
 
 function draw() {
+    rickRollSound.play()
     image(video, 0, 0, 0)
     video.loadPixels()
     let asciiImage = ''
